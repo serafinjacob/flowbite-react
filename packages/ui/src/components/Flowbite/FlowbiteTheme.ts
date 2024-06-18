@@ -9,6 +9,7 @@ import type { FlowbiteButtonGroupTheme, FlowbiteButtonTheme } from "../Button";
 import type { FlowbiteCardTheme } from "../Card";
 import type { FlowbiteCarouselTheme } from "../Carousel";
 import type { FlowbiteCheckboxTheme } from "../Checkbox";
+import type { FlowbiteColorSelectorTheme } from "../ColorSelector";
 import type { FlowbiteDarkThemeToggleTheme } from "../DarkThemeToggle";
 import type { FlowbiteDatepickerTheme } from "../Datepicker";
 import type { FlowbiteDrawerTheme } from "../Drawer";
@@ -89,6 +90,7 @@ export interface FlowbiteTheme {
   toast: FlowbiteToastTheme;
   toggleSwitch: FlowbiteToggleSwitchTheme;
   tooltip: FlowbiteTooltipTheme;
+  colorSelector: FlowbiteColorSelectorTheme;
 }
 
 export interface FlowbiteBoolean {
